@@ -42,7 +42,7 @@ def main(max_page: int):
     """_summary_
 
     Args:
-        max_page (int): 页数
+        max_page (int): 页数,偶数页
     """
     urls = get_start_url(max_page-2)
     co = ChromiumOptions()
